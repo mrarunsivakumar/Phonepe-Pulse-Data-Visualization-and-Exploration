@@ -12,14 +12,14 @@ from plotly.subplots import make_subplots
 st. set_page_config(layout="wide")
 
 #Reading the files
-Data_Aggregated_Transaction_df= pd.read_csv(r'E:\guvi\ds\project\project2a\New folder\PhonePe-Pulse-Data-2018-2022-Analysis\data\Data_Aggregated_Transaction_Table.csv')
-Data_Aggregated_User_Summary_df= pd.read_csv(r'E:\guvi\ds\project\project2a\New folder\PhonePe-Pulse-Data-2018-2022-Analysis\data\Data_Aggregated_User_Summary_Table.csv')
-Data_Aggregated_User_df= pd.read_csv(r'E:\guvi\ds\project\project2a\New folder\PhonePe-Pulse-Data-2018-2022-Analysis\data\Data_Aggregated_User_Table.csv')
-Scatter_Geo_Dataset =  pd.read_csv(r'E:\guvi\ds\project\project2a\New folder\PhonePe-Pulse-Data-2018-2022-Analysis\data\Data_Map_Districts_Longitude_Latitude.csv')
-Coropleth_Dataset =  pd.read_csv(r'E:\guvi\ds\project\project2a\New folder\PhonePe-Pulse-Data-2018-2022-Analysis\data\Data_Map_IndiaStates_TU.csv')
-Data_Map_Transaction_df = pd.read_csv(r'E:\guvi\ds\project\project2a\New folder\PhonePe-Pulse-Data-2018-2022-Analysis\data\Data_Map_Transaction_Table.csv')
-Data_Map_User_Table= pd.read_csv(r'E:\guvi\ds\project\project2a\New folder\PhonePe-Pulse-Data-2018-2022-Analysis\data\Data_Map_User_Table.csv')
-Indian_States= pd.read_csv(r'E:\guvi\ds\project\project2a\New folder\PhonePe-Pulse-Data-2018-2022-Analysis\data\Longitude_Latitude_State_Table.csv')
+Data_Aggregated_Transaction_df= pd.read_csv(r'Data_Aggregated_Transaction_Table.csv')
+Data_Aggregated_User_Summary_df= pd.read_csv(r'Data_Aggregated_User_Summary_Table.csv')
+Data_Aggregated_User_df= pd.read_csv(r'Data_Aggregated_User_Table.csv')
+Scatter_Geo_Dataset =  pd.read_csv(r'Data_Map_Districts_Longitude_Latitude.csv')
+Coropleth_Dataset =  pd.read_csv(r'Data_Map_IndiaStates_TU.csv')
+Data_Map_Transaction_df = pd.read_csv(r'Data_Map_Transaction_Table.csv')
+Data_Map_User_Table= pd.read_csv(r'Data_Map_User_Table.csv')
+Indian_States= pd.read_csv(r'Longitude_Latitude_State_Table.csv')
 
 
 
