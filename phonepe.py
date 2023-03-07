@@ -12,7 +12,7 @@ from streamlit_option_menu import option_menu
 db = mysql.connect(
   host="localhost",
   user="root",
-  password="arunsiva",
+  password="Your password",
   database="phonepe" 
 )
 #get data from mysql database
