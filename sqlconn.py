@@ -36,7 +36,7 @@ import mysql.connector as msql
 from mysql.connector import Error
 try:
     conn = msql.connect(host='localhost', user='root',  
-                        password='arunsiva')#give ur username, password
+                        password=' your password')#give ur username, password
     if conn.is_connected():
         cursor = conn.cursor()
         cursor.execute("CREATE DATABASE phonepe")
@@ -48,7 +48,7 @@ except Error as e:
 
 
 try:
-    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='arunsiva')
+    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='password')
     if conn.is_connected():
         cursor = conn.cursor()
         cursor.execute("select database();")
@@ -73,7 +73,7 @@ except Error as e:
 
 
 try:
-    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='arunsiva')
+    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='password')
     if conn.is_connected():
         cursor = conn.cursor()
         cursor.execute("select database();")
@@ -99,7 +99,7 @@ except Error as e:
 
 
 try:
-    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='arunsiva')
+    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='password')
     if conn.is_connected():
         cursor = conn.cursor()
         cursor.execute("select database();")
@@ -125,7 +125,7 @@ except Error as e:
 
 
 try:
-    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='arunsiva')
+    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='password')
     if conn.is_connected():
         cursor = conn.cursor()
         cursor.execute("select database();")
@@ -151,7 +151,7 @@ except Error as e:
 
 
 try:
-    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='arunsiva')
+    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='password')
     if conn.is_connected():
         cursor = conn.cursor()
         cursor.execute("select database();")
@@ -177,7 +177,7 @@ except Error as e:
 
 
 try:
-    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='arunsiva')
+    conn = mysql.connect(host='localhost', database='phonepe', user='root', password='password')
     if conn.is_connected():
         cursor = conn.cursor()
         cursor.execute("select database();")
